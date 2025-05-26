@@ -46,6 +46,53 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAO\AlergiaDAO.cs" />
+    <Compile Include="DAO\AlergiaPacienteDAO.cs" />
+    <Compile Include="DAO\AusenciaDAO.cs" />
+    <Compile Include="DAO\Cancelacion_CitaDAO.cs" />
+    <Compile Include="DAO\Cita_MedicaDAO.cs" />
+    <Compile Include="DAO\ClinicaDAO.cs" />
+    <Compile Include="DAO\ClinicaEspecialidadDAO.cs" />
+    <Compile Include="DAO\ClinicaMedicoDAO.cs" />
+    <Compile Include="DAO\ClinicaPacienteDAO.cs" />
+    <Compile Include="DAO\CorreoClinicaDAO.cs" />
+    <Compile Include="DAO\EnfermedadDAO.cs" />
+    <Compile Include="DAO\EnfermedadPacienteDAO.cs" />
+    <Compile Include="DAO\EspecialidadDAO.cs" />
+    <Compile Include="DAO\HorarioClinicaDAO.cs" />
+    <Compile Include="DAO\HorarioMedicoDAO.cs" />
+    <Compile Include="DAO\MedicoDAO.cs" />
+    <Compile Include="DAO\NotaMedicaDAO.cs" />
+    <Compile Include="DAO\PacienteDAO.cs" />
+    <Compile Include="DAO\PagoDAO.cs" />
+    <Compile Include="DAO\TelefonoClinicaDAO.cs" />
+    <Compile Include="DAO\UbicacionDAO.cs" />
+    <Compile Include="DAO\UsuarioDAO.cs" />
+    <Compile Include="Entidad\Alergia.cs" />
+    <Compile Include="Entidad\Alergia_Paciente.cs" />
+    <Compile Include="Entidad\Ausencia.cs" />
+    <Compile Include="Entidad\Cancelacion_Cita.cs" />
+    <Compile Include="Entidad\CitaMedicaDetallada.cs" />
+    <Compile Include="Entidad\Cita_Medica.cs" />
+    <Compile Include="Entidad\Clinica.cs" />
+    <Compile Include="Entidad\Clinica_Especialidad.cs" />
+    <Compile Include="Entidad\Clinica_Medico.cs" />
+    <Compile Include="Entidad\Clinica_Paciente.cs" />
+    <Compile Include="Entidad\Correo_Clinica.cs" />
+    <Compile Include="Entidad\Enfermedad.cs" />
+    <Compile Include="Entidad\Enfermedad_Paciente.cs" />
+    <Compile Include="Entidad\Especialidad.cs" />
+    <Compile Include="Entidad\Horario_Clinica.cs" />
+    <Compile Include="Entidad\Horario_Medico.cs" />
+    <Compile Include="Entidad\Medico.cs" />
+    <Compile Include="Entidad\Nota_Medica.cs" />
+    <Compile Include="Entidad\Paciente.cs" />
+    <Compile Include="Entidad\Pago.cs" />
+    <Compile Include="Entidad\Resumen_Medico.cs" />
+    <Compile Include="Entidad\Resumen_Paciente.cs" />
+    <Compile Include="Entidad\Telefono_Clinica.cs" />
+    <Compile Include="Entidad\Ubicacion.cs" />
+    <Compile Include="Entidad\Usuario.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,7 +105,6 @@
     <Compile Include="Pantallas\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Pantallas\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -81,9 +127,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
