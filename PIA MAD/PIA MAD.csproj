@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BDConexion.cs" />
     <Compile Include="DAO\AlergiaDAO.cs" />
     <Compile Include="DAO\AlergiaPacienteDAO.cs" />
     <Compile Include="DAO\AusenciaDAO.cs" />
