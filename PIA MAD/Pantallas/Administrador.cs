@@ -22,5 +22,17 @@ namespace PIA_MAD.Pantallas
         {
             panelUsuarios.Visible = true;
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Registrar_Usuario registrar_usuario = new Registrar_Usuario();
+            registrar_usuario.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Editar_Usuario editar_usuario = new Editar_Usuario();
+            editar_usuario.Show();
+        }
     }
 }
